@@ -1,0 +1,29 @@
+{
+	"name": "monokaisgq-dark",
+	"publisher": "marketideas",
+	"displayName": "MonokaiSGQ-dark",
+	"description": "MonokaiSGQ-dark Theme",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.31.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/marketideas/MonokaiSGQ"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "MonokaiSGQ",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai-SGQ-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"publisherDisplayName": "marketideas"
+	}
+}
