@@ -1,8 +1,8 @@
 {
-	"name": "monokaisgq-dark",
+	"name": "monokaiSGQ",
 	"publisher": "marketideas",
-	"displayName": "MonokaiSGQ-dark",
-	"description": "MonokaiSGQ-dark Theme",
+	"displayName": "MonokaiSGQ",
+	"description": "MonokaiSGQ (dark) Theme",
 	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.31.0"
