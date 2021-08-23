@@ -1,7 +1,7 @@
 {
 	"name": "MonokaiSGQ",
 	"type": "dark",
-	"semanticHighlighting": false,
+	"semanticHighlighting": true,
 	"colors": {
         "activityBar.activeBackground": "#FFA00000",
         "activityBar.activeBorder": "#ff79c680",
@@ -210,12 +210,6 @@
 	
 	"tokenColors": [
 		{
-			"scope": "support.type.property-name.json",
-			"settings": {
-				"foreground": "#1da1f2"
-			}
-        },
-		{
 			"name": "Comments",
 			"scope": "comment",
 			"settings": {
@@ -345,7 +339,7 @@
 			"name": "Strings",
 			"scope": "string, constant.other.symbol",
 			"settings": {
-				"foreground": "#b3fa9d"
+				"foreground": "#f4ae01"
 			}
 		},
 		{
@@ -576,7 +570,7 @@
 				"support.constant.property-value.css"
 			],
 			"settings": {
-				"foreground": "#8cc6ff"
+				"foreground": "#1da1f2"w
 			}
 		},
 		{
@@ -732,10 +726,21 @@
 			}
 		},
 		{
-			"name": "(JSON) Property Name",
-			"scope": "support.type.property-name.json",
+			"name": "(JSON/YAML) Property Name",
+			"scope": [
+				"support.type.property-name.json",
+				"entity.name.tag.yaml",
+				"string.unquoted.plain.out..yaml"
+			],
 			"settings": {
-				"foreground": "#F4F4FF"
+				"foreground": "#1da1f2"
+			}
+		},
+		{
+			"name": "(JSON) String double quotes",
+			"scope": "string.quoted.double.json",
+			"settings": {
+				"foreground": "#f4ae01"
 			}
 		},
 		{
@@ -745,7 +750,7 @@
 				"punctuation.support.type.property-name.end.json"
 			],
 			"settings": {
-				"foreground": "#4DF0AF"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
