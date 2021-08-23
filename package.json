@@ -2,8 +2,10 @@
     "name": "monokaisgq",
     "displayName": "MonokaiSGQ",
     "description": "my personal color theme",
-    "publisher": "sgq",
+    "publisher": "marketideas",
     "version": "0.0.1",
+	"repository": "https://github.com/marketideas/MonokaiSGQ.git",
+
     "engines": {
         "vscode": "^1.46.0"
     },
