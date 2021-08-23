@@ -1,24 +1,28 @@
 {
-    "name": "monokaisgq",
-    "displayName": "MonokaiSGQ",
-    "description": "my personal color theme",
-    "publisher": "marketideas",
-    "version": "0.0.1",
+	"name": "monokaisgq",
+	"displayName": "MonokaiSGQ",
+	"description": "my personal color theme",
+	"publisher": "marketideas",
+	"version": "0.0.1",
 	"repository": "https://github.com/marketideas/MonokaiSGQ.git",
-
-    "engines": {
-        "vscode": "^1.46.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "MonokaiSGQ",
-                "uiTheme": "vs-dark",
-                "path": "./themes/MonokaiSGQ-color-theme.json"
-            }
-        ]
-    }
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "MonokaiSGQ",
+				"uiTheme": "vs-dark",
+				"path": "./themes/MonokaiSGQ-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "1b390863-5dd1-4707-a25a-c791846195d3",
+		"publisherDisplayName": "marketideas",
+		"publisherId": "08ea2fb5-1a5f-430d-8122-1af97ee28260"
+	}
 }
