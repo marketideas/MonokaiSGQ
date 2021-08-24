@@ -2,6 +2,12 @@
 REPO=MonokaiSGQ
 P=`pwd`
 
+dirty=`svn status -q`
+if [ -n "$dirty" ] ; then
+  echo "project is not completely checked into SVN"
+  exit 127
+fi
+
 DIR=/tmp/$REPO
 rm -rf $DIR
 mkdir -p $DIR
